@@ -3,36 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Blog</title>
-  <link rel="stylesheet" href="indexstyle.css">
+  <title>Daily Blog</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="daily-blog.css">
 </head>
-<body class="bg-gray-900 text-white">
+<body class="bg-gray-900 text-white font-sans">
 
   <nav>
     <a href="index.html">Home</a>
-    <a href="certifications.html">Certifications</a>
-    <a href="about.html">About Me</a>
-    <a href="contact.html">Contact</a>
-    <a href="blog.html">Blog</a>
-    <a href="https://drive.google.com/file/d/1h5rtHOR4-_sHO3zkuCKQhlb0sEE96lIb/view?usp=sharing" target="_blank">Resume</a>
+    <a href="blog.html">Back to Blog</a>
   </nav>
 
-  <section class="text-center mt-10">
-    <h1 class="text-4xl font-bold mb-2">My Blog</h1>
-    <p class="text-gray-400">Ideas, Projects & Daily Learnings</p>
-  </section>
+  <div class="text-center mt-10">
+    <h1 class="text-4xl font-bold mb-2">📝 Daily Updates</h1>
+    <p class="text-gray-400">Track of daily progress and learning logs.</p>
+  </div>
 
-  <section class="max-w-5xl mx-auto mt-12 px-4">
-    <div class="bg-gray-800 p-6 rounded-lg shadow-md text-center">
-      <h2 class="text-2xl font-semibold text-blue-400 mb-2">🗓️ Daily Blog Updates</h2>
-      <p class="text-gray-300 mb-4">See what I work on daily, my learning logs and progress!</p>
-      <a href="daily-blog.html">
-        <button class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full font-medium transition-all duration-300">
-          Go to Daily Blog →
-        </button>
-      </a>
+  <div class="max-w-3xl mx-auto mt-12 space-y-10 px-4">
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">1 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 mb-4 font-mono">🔹Get started with Tailwind CSS</p>
+          <p class="text-gray-300 mb-4 font-mono">🔹Created Blog Page Layout</p>
+          <p class="text-gray-400 mt-2 text-sm italic">⤷ I found Tailwind's utility-first approach refreshing.</p>
+
+        </div>
+      </div>
     </div>
-  </section>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">2 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 mb-4 font-mono">🔹Completed the core concepts of Tailwind!</p>
+          <p class="text-gray-300 mb-4 font-mono">🔹Started working on a login page for practice.</p>
+          <p class="text-gray-400 mt-2 text-sm italic">
+        ⤷ Today's session gave me a deeper understanding of how utility classes work together in Tailwind. Learning about breakpoints, variants, and responsive design really clicked for me. Starting the login page helped reinforce these concepts in a practical way.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
