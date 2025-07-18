@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Daily Blog</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="daily-blog.css">
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="blog.html">Back to Blog</a>
+  <nav class="flex justify-between px-6 py-4 bg-gray-800 shadow-md">
+    <a href="index.html" class="text-blue-400 underline">Home</a>
+    <a href="blog.html" class="text-blue-400 underline">Back to Blog</a>
   </nav>
 
   <div class="text-center mt-10">
@@ -20,31 +20,149 @@
   </div>
 
   <div class="max-w-3xl mx-auto mt-12 space-y-10 px-4">
+
+    <!-- Reusable Entry Template -->
+    <!-- Copy this block and change date, points, description for each new entry -->
+
+    <!-- 1 July -->
     <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
       <div class="absolute -top-4 left-6 text-xs text-gray-400">1 July, 2025</div>
       <div class="flex items-center space-x-4">
-        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Avatar" class="rounded-full w-10 h-10">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
         <div>
-          <p class="text-gray-300 mb-4 font-mono">🔹Get started with Tailwind CSS</p>
-          <p class="text-gray-300 mb-4 font-mono">🔹Created Blog Page Layout</p>
-          <p class="text-gray-400 mt-2 text-sm italic">⤷ I found Tailwind's utility-first approach refreshing.</p>
+          <p class="text-gray-300 font-mono">🔹 Get started with Tailwind CSS</p>
+          <p class="text-gray-300 font-mono">🔹 Created Blog Page Layout</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Tailwind's utility-first approach was refreshing to explore.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">2 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Completed Tailwind core concepts</p>
+          <p class="text-gray-300 font-mono">🔹 Started the login page</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Breakpoints, responsive utilities, and variant usage became clearer today.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">3 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Completed Login Page</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Created a responsive login page using Tailwind, learned layout and styling utilities. 🔗 <a href="https://login-page-nine-ochre.vercel.app" class="text-blue-400 underline">View</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">4 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Started Dashboard Page</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Began layout with sidebar and navbar, explored grid structure and responsiveness.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">7 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Completed Dashboard Page</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Finalized responsive layout and structure. 🔗 <a href="https://login-page-nine-ochre.vercel.app/dashboard" class="text-blue-400 underline">View</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">8 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Started Editorial Page 1</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Focused on header typography, layout spacing, and design precision.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">9 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Completed Editorial Page 1</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Achieved pixel-perfect layout using Tailwind. 🔗 <a href="https://editorial-nine.vercel.app" class="text-blue-400 underline">View</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 14 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">14 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Started Editorial Pages 2 & 3</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Designed layout with structure, spacing, and font setup from references.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 15 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">15 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Completed Editorial Pages 2 & 3</p>
+          <p class="text-gray-400 mt-2 text-sm">⤷ Finalized responsive, styled layout. 🔗 <a href="https://editorial-jonathan.vercel.app" class="text-blue-400 underline">View 1</a>, <a href="https://editorial2.vercel.app" class="text-blue-400 underline">View 2</a></p>
+        </div>
+      </div>
+    </div>
+
+   <!-- 16 July -->
+<div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+  <div class="absolute -top-4 left-6 text-xs text-gray-400">16 July, 2025</div>
+  <div class="flex items-center space-x-4">
+    <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+    <div>
+      <p class="text-gray-300 font-mono">🔹 JavaScript Deep Dive</p>
+      <p class="text-gray-400 mt-2 text-sm">
+        ⤷ Started by revising the basic concepts like comments, datatypes, variables, operators. Moved to objects, arrow functions, rest/spread operators, destructuring. Also explored closures, lexical scope, <code>this</code> binding types, currying, prototype, prototypal inheritance, classes, generators, yield, and iterables.
+      </p>
+    </div>
+  </div>
+</div>
+
+    <!-- 18 July -->
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
+      <div class="absolute -top-4 left-6 text-xs text-gray-400">18 July, 2025</div>
+      <div class="flex items-center space-x-4">
+        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Profile Avatar" class="rounded-full w-10 h-10">
+        <div>
+          <p class="text-gray-300 font-mono">🔹 Started React</p>
+          <p class="text-gray-400 mt-2 text-sm">
+        ⤷ Introduced to React JS and setup using Vite. Covered React installation, folder structure, and basics like components, JSX, props, and state. Also learned conditional rendering, onChange event, and real-time input handling. Practiced click events, exporting/importing components, and upgrading React version.
+      </p>
 
         </div>
       </div>
     </div>
-    <div class="bg-gray-800 p-6 rounded-lg shadow-md relative">
-      <div class="absolute -top-4 left-6 text-xs text-gray-400">2 July, 2025</div>
-      <div class="flex items-center space-x-4">
-        <img src="https://images-platform.99static.com//Z-5L32vHr7x58im-LrxFo80N8Sc=/215x205:896x886/fit-in/500x500/99designs-contests-attachments/155/155460/attachment_155460413" alt="Avatar" class="rounded-full w-10 h-10">
-        <div>
-          <p class="text-gray-300 mb-4 font-mono">🔹Completed the core concepts of Tailwind!</p>
-          <p class="text-gray-300 mb-4 font-mono">🔹Started working on a login page for practice.</p>
-          <p class="text-gray-400 mt-2 text-sm italic">
-        ⤷ Today's session gave me a deeper understanding of how utility classes work together in Tailwind. Learning about breakpoints, variants, and responsive design really clicked for me. Starting the login page helped reinforce these concepts in a practical way.
-        </p>
-        </div>
-      </div>
-    </div>
+
   </div>
 </body>
 </html>
